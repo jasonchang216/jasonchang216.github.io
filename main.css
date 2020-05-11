@@ -1,0 +1,148 @@
+html {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.main_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url("marble_background.jpg");
+}
+
+.horizontal_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* about page */
+
+.main_about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.tall_dark {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+  text-align: center;
+  background-color: rgb(50,54,57);
+  color: white;
+
+}
+
+.tall_white {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.content_about {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+/* download page */
+
+.main_download {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.wide_dark {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+  text-align: center;
+  background-color: rgb(50,54,57);
+  color: white;
+}
+
+.wide_white {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.main_signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: white;
+}
+
+.image_box {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.image_small {
+  height: 50px;
+  width: 50px;
+}
+
+.image_medium {
+  height: 150px;
+  width: 150px;
+}
