@@ -13,6 +13,12 @@ img {
   max-height: 100%;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .nav_div {
   display: flex;
   flex-direction: column;
@@ -126,26 +132,24 @@ img {
 
 .wide_dark {
   width: 100%;
-  height: 50%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   vertical-align: middle;
-  text-align: center;
+  text-align:left;
   background-color: rgb(50,54,57);
   color: white;
 }
 
 .wide_white {
   width: 100%;
-  height: 50%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   vertical-align: middle;
-  text-align: center;
+  text-align: left;
 }
 
 
