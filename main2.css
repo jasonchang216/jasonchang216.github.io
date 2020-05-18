@@ -19,7 +19,15 @@ a {
 }
 
 p {
-  font-size: 1.25em;
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+i {
+  font-size: 2em;
 }
 
 .main_title {
